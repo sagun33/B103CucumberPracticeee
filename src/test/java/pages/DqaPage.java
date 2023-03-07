@@ -11,7 +11,7 @@ public class DqaPage {
     }
     @FindBy (xpath = "//span[normalize-space()='Alerts']")
     public WebElement alert;
-    @FindBy (xpath = "//*[@id='timerAlertButton']")
+    @FindBy (xpath = "//button[@id='timerAlertButton']")
     public WebElement onButtonClick;
 
 }
