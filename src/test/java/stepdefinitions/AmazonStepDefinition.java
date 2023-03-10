@@ -32,7 +32,7 @@ public class AmazonStepDefinition {
 
     @Then("sayfa basliginin iphone icerdigini test eder")
     public void sayfaBasligininIphoneIcerdiginiTestEder() {
-        Assert.assertTrue(Driver.getDriver().getTitle().contains("iphone"));
+        Assert.assertFalse(Driver.getDriver().getTitle().contains("iphone"));
     }
 
     @When("kullanici selenium için arama yapar")

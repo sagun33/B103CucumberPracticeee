@@ -5,6 +5,7 @@ Feature: ilk feature file
   Scenario: TC01_amazon_iphone_arama
     When kullanici iphone için arama yapar
     Then sayfa basliginin iphone icerdigini test eder
+    And  kullanici 3 saniye bekler
 
   Scenario: TC02_amazon_selenium_arama
     When kullanici selenium için arama yapar
